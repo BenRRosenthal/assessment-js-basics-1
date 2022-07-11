@@ -42,7 +42,7 @@ const gitCloneDefinition = "git clone will make will copy a repository and move 
 */
 
 //CODE HERE
-var gitStatusDefinition = ""
+var gitStatusDefinition = "git status will give you the documents that are already git added and that are not. It also gives you the status of your repository."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,6 +53,10 @@ var gitStatusDefinition = ""
 */
 
 //CODE HERE
+
+var gitAddDefinition = "git add is the move before a git commit, it is letting git know that this document needs to be tracked for commits."
+var gitAddCode = "git add ."
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,6 +69,8 @@ var gitStatusDefinition = ""
 
 //CODE HERE
 
+var gitCommitDefinition = "git commit is the command that makes the code you have update in your repository. Now the repository is updated with the latest information."
+var gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +79,6 @@ var gitStatusDefinition = ""
 */
 
 //CODE HERE
+
+let gitPushDefinition = "git push is how you update a remote or non local repository."
+
